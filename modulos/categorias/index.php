@@ -7,6 +7,8 @@
          
         <h1>CATEGORIA PRODUCTOS</h1>        
         <a href="form.php" style="color: red"><h2>crear categoria</h2> </a>
+        <a href="../../modulos/index.php" style="color: red"><h2>Menu Modulos</h2> </a>
+        <input type="button" onclick=" location.href='../../modulos/index.php' " value="modulos" /> 
                
         <?php  
         

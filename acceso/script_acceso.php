@@ -13,7 +13,6 @@ if(isset($nombre)){
     
     // consultar los usuarios que estan guardados en la base de datos
     $consulta = "select * from usuarios where name ='$nombre' and password ='$password'";
-    
     $resultado = mysql_query($consulta) or die(mysql_error());
     $fila = mysql_fetch_array($resultado); 
     
